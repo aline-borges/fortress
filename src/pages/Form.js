@@ -7,14 +7,12 @@ import Button from '../components/buttons/Button';
 
 export const Form = () => {
   return(
-  <>
     <Container>
       <Header />
-      <Label text={'Senha'} />
+      <Label text='Senha' />
       <Input />
-      <Button text={'Enviar'} />
+      <Button text='Enviar' />
     </Container>
-  </>
   )
 }
 

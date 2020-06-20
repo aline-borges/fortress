@@ -11,8 +11,8 @@ export const Result = () => {
       <Header />
       <Image />
       <BoxResult />
-      <Button text={'Voltar'} />
-      <Button text={'Página Inicial'} />
+      <Button text='Voltar' />
+      <Button text='Página Inicial' />
     </Container>
   )
 }

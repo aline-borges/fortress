@@ -6,14 +6,12 @@ import Button from '../components/buttons/Button';
 
 export const Home = () => {
   return(
-    <>
     <Container>
       <Header />
-      <Paragraph text={'Analise a força da sua senha. Entre e teste agora.'} />
-      <Paragraph text={'Que a força esteja com você!'} />
-      <Button text={'Começar'} />
+      <Paragraph text='Analise a força da sua senha. Entre e teste agora.' />
+      <Paragraph text='Que a força esteja com você!' />
+      <Button text='Começar' />
     </Container>
-  </>
   )
 }
 
