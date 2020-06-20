@@ -9,7 +9,8 @@ import styled from 'styled-components';
   min-height: 100vh;
   color:  #fce307;
   text-align: center;
-  padding: 5px 15px;
+  padding: 5px 15px 5px 20px;
+  margin-top: 8%;
 `;
 
 export default Style

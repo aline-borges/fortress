@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Style = styled.button`
   text-align: center;
   padding: 8px 16px;
-  margin: 40px 15px 15px 0;
+  margin: 5% 25%;
   border: 2px solid #fce307;
   background: transparent;
   font-family: 'Star Jedi';
