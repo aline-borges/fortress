@@ -4,7 +4,7 @@ import { faJedi } from '@fortawesome/free-solid-svg-icons';
 
 export const Logo = () => {
   return(
-    <FontAwesomeIcon icon={faJedi} />
+    <FontAwesomeIcon icon={faJedi} size="3x" />
   );
 }
 

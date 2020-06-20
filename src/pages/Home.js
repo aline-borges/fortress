@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '../components/container/Container';
+import Container from '../components/container/Column/Container';
 import Header from '../components/header/Header';
 import Paragraph from '../components/texts/paragraph/Paragraph';
 import Button from '../components/buttons/Button';

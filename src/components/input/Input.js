@@ -3,7 +3,7 @@ import Style from './style';
 
 export const Input = () => {
   return(
-    <Style />
+    <Style type='password' />
   )
 }
 

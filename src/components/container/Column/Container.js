@@ -1,11 +1,11 @@
 import React from 'react';
 import Style from './style';
 
-export const Container = () => {
+export const Container = (props) => {
   return (
-    <>
-      <Style />
-    </>
+    <Style>
+      {props.children}
+    </Style>
   );
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '../components/container/Container';
+import Container from '../components/container/Column/Container';
 import Header from '../components/header/Header';
 import Image from '../components/image/Image';
 import BoxResult from '../components/result/BoxResult';
@@ -11,8 +11,8 @@ export const Result = () => {
       <Header />
       <Image />
       <BoxResult />
-      <Button text='Voltar' />
-      <Button text='Página Inicial' />
+      <Button text='voltar' />
+      <Button text='Página inicial' />
     </Container>
   )
 }
