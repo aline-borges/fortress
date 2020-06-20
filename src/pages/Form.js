@@ -4,17 +4,16 @@ import Row from '../components/container/Row/Row';
 import Header from '../components/header/Header';
 import Label from '../components/label/Label';
 import Input from '../components/input/Input';
-import Button from '../components/buttons/Button';
 
-export const Form = () => {
+export const Form = (props) => {
   return(
     <Container>
       <Header />
       <Row>
         <Label text='Senha' />
-        <Input />
+        <Input value={props.password} />
       </Row>
-      <Button text='Enviar' />
+      {props.children}
     </Container>
   )
 }
